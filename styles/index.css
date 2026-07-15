@@ -54,6 +54,7 @@ body {
         border-radius: 30px;
         font-weight: 600;
         font-family: var(--ff-lexand);
+        transition: 300ms;
     }
 
     /* fim do css global */
@@ -80,6 +81,12 @@ body {
 
         button {
             color: var(--gold);
+
+            &:hover {
+                border: 2px solid var(--white);
+                background-color: var(--gold);
+                color: var(--white);
+            }
         }
     }
 
@@ -92,6 +99,12 @@ body {
 
         button {
             color: var(--cyan);
+
+            &:hover {
+                border: 2px solid var(--white);
+                background-color: var(--cyan);
+                color: var(--white);
+            }
         }
     }
 
@@ -103,6 +116,12 @@ body {
 
         button {
             color: var(--green);
+
+            &:hover {
+                border: 2px solid var(--white);
+                background-color: var(--green);
+                color: var(--white);
+            }
         }
     }
 
