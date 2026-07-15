@@ -124,6 +124,53 @@ body {
             }
         }
     }
+}
 
-   
+
+@media (max-width: 768px) {
+
+    body {
+
+        img {
+            width: 100px;
+        
+        }
+        h2 {
+            font-size: 90px;
+        }
+
+        p {
+            width: 100%;
+            font-size: 30px;
+            padding-right: 30px;
+            
+        }
+
+        button {
+            padding: 30px 50px;
+            border-radius: 50px;
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+    }
+
+    .card {
+        width: 80%;
+        margin-block: 60px;
+        flex-direction: column;
+        border-radius: 20px;
+
+
+        .sedans {
+            padding-inline: 90px;
+        }
+
+        .suvs {
+            padding-inline: 90px;
+        }
+
+        .luxury {
+            padding-inline: 90px;
+        }
+    }
 }
