@@ -16,5 +16,6 @@
     --white-p: hsla(0, 0%, 100%, 0.75);
     --bg: hsl(0, 0%, 95%);
 
-    
+    --ff-lexand: "Lexend Deca", sans-serif;
+    --ff-big: "Big Shoulders", sans-serif;
 }
