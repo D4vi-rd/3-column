@@ -48,6 +48,14 @@ body {
         padding-bottom: 80px;
     }
 
+    button {
+        border: none;
+        padding: 15px 35px;
+        border-radius: 30px;
+        font-weight: 600;
+        font-family: var(--ff-lexand);
+    }
+
     /* fim do css global */
 }
 
@@ -69,6 +77,10 @@ body {
         background-color: var(--gold);
         padding-inline: 30px;
         padding-block: 40px;
+
+        button {
+            color: var(--gold);
+        }
     }
 
 
@@ -77,6 +89,10 @@ body {
         background-color: var(--cyan);
         padding-inline: 30px;
         padding-block: 40px;
+
+        button {
+            color: var(--cyan);
+        }
     }
 
     .luxury {
@@ -84,5 +100,11 @@ body {
         background-color: var(--green);
         padding-inline: 30px;
         padding-block: 40px;
+
+        button {
+            color: var(--green);
+        }
     }
+
+   
 }
